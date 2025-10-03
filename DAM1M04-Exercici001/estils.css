@@ -1,0 +1,61 @@
+/* Estilo por etiqueta */
+p {
+    color: green;
+    
+}
+
+/* Estilo por id */
+#titol {
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+/* Estilos por clase */
+.text-important{
+    
+    color: red !important;
+    font-weight: bold !important;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.rojo {
+    color: red;
+}
+
+.verde {
+    color: green;
+}
+
+.azul {
+    color: blue;
+}
+
+.gran {
+    font-size: 24px; 
+}
+
+.negreta{
+    font-weight: bold; 
+}
+
+.subratllat {
+    text-decoration: underline; 
+}
+
+/* Pseudoclase para enlaces */
+a:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+/* Pseudoelementos */
+p::before {
+    content: "👉 ";
+    color: blue;
+}
+
+p::after {
+    content: " ✔";
+    color: green;
+}
